@@ -1,0 +1,24 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EasyTemplate</Name>
+    <Description>Шаблон для ACM контестов</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EasyTemplate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EasyTemplate.vcxproj" File="EasyTemplate.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">EasyTemplate.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="input.txt">input.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="output.txt">output.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Source.cpp">Source.cpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
